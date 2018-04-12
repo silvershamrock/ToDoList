@@ -36,7 +36,7 @@
                     <navigationItem key="navigationItem" title="To Do List" id="nRU-Pa-JWz">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="56q-KY-ICi">
                             <connections>
-                                <segue destination="ZHI-VT-VFk" kind="show" id="eqi-X6-IqJ"/>
+                                <segue destination="ZHI-VT-VFk" kind="show" id="fRN-Hg-nez"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -101,7 +101,6 @@
                         <viewLayoutGuide key="safeArea" id="57g-Jh-cue"/>
                     </view>
                     <connections>
-                        <outlet property="addTapped" destination="6Lt-m0-wyh" id="q4B-6a-5WG"/>
                         <outlet property="importantSwitch" destination="rZu-ZK-VBL" id="OVK-lo-UF5"/>
                         <outlet property="titleTextField" destination="QdI-TJ-XOL" id="UrR-Ae-8Z4"/>
                     </connections>
